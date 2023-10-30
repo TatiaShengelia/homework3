@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
     var firstName:EditText=findViewById<AppCompatEditText>(R.id.editTextFirstName)
     var lastName:EditText=findViewById<AppCompatEditText>(R.id.editTextLastName)
     var age:EditText=findViewById<AppCompatEditText>(R.id.editTextAge)
-    private val longPressDuration = 100 // Adjust the duration as needed (in milliseconds)
+    private val longPressDuration = 100
         private val handler = Handler()
         override fun onLongClick(v: View?): Boolean {
             handler.postDelayed({
